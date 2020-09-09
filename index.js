@@ -9,12 +9,12 @@ function writeCards(namesArray, event){
 }
 
 // let countDown = i;
-function countdown(countDown){
-  while (countDown > 0){
-    console.log(countDown);
-    countDown -= 1;
+function countdown(countdown){
+  while (countdown > 0){
+    console.log(countdown);
+    countdown -= 1;
   }
-  console.log(countDown);
+  console.log(countdown);
 }
 
 // function countdown( countdown ) {
