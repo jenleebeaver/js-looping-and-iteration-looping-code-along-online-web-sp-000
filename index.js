@@ -3,7 +3,7 @@
 // const name = ['Lisa', 'Kaitlin', 'Jan']
 
 function writeCards(namesArray, event){
-  for (let i = 0; i < name.length; i++){
+  for (let i = 0; i < namesArray.length; i++){
     console.log(`Thank you, ${name[i]}, for the wonderful ${greeting} gift!`);
   }
 }
