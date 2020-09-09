@@ -10,6 +10,15 @@ function writeCards(namesArray, event){
 
 let countDown = i;
 while (countDown > 0){
-  console.log(countDown--)
+  console.log(countDown);
+  countdown -= 1;
 };
 countDown(20);
+
+function countdown( countdown ) {
+  while ( countdown > 0 ) {
+    console.log( countdown );
+    countdown -= 1;
+  }
+  console.log( countdown );
+}
