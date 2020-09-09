@@ -17,6 +17,3 @@ function countDown(countdown){
   }
   console.log(countdown);
 }
-
-
-
