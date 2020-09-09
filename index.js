@@ -2,9 +2,9 @@
 // const greeting = "suprise"
 // const name = ['Lisa', 'Kaitlin', 'Jan']
 
-function writeCards(namesArray, event){
+function writeCards(name, greeting){
   for (let i = 0; i < name.length; i++){
-    console.log(`Thank you, ${namesArray[i]}, for the wonderful ${greeting} gift!`);
+    console.log(`Thank you, ${name[i]}, for the wonderful ${greeting} gift!`);
   }
 }
 
