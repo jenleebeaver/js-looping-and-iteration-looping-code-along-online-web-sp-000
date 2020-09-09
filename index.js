@@ -6,7 +6,6 @@ function writeCards(namesArray, event){
     thankYouCards.push(`Thank you, ${namesArray[i]}, for the wonderful ${event} gift!`)
   }
   return thankYouCards
-  console.log(thankYouCards)
 }
 
 // let countDown = i;
