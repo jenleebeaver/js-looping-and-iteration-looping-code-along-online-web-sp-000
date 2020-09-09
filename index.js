@@ -16,7 +16,6 @@ function countdown(countDown){
   }
   console.log(countDown);
 }
-countDown(20);
 
 function countdown( countdown ) {
   while ( countdown > 0 ) {
