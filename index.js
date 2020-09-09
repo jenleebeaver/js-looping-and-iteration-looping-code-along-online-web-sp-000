@@ -12,7 +12,7 @@ let countDown = i;
 function countdown(countDown){
   while (countDown > 0){
     console.log(countDown);
-    countdown -= 1;
+    countDown -= 1;
   }
 }
 countDown(20);
