@@ -2,4 +2,6 @@
 const greeting = "birthday"
 const name = ["Ada", "Brendan", "Ali"]
 
-function writeCards(name, greeting)
+function writeCards(name, greeting){
+  
+}
