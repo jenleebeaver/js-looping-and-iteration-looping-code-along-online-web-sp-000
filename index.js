@@ -7,6 +7,7 @@ function writeCards(namesArray, event){
   }
   return thankYouCards
 }
+console.log(thankYouCards)
 
 // let countDown = i;
 function countDown(countdown){
