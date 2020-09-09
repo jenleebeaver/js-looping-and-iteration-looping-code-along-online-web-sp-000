@@ -3,6 +3,7 @@
 function writeCards(namesArray, event){
   let thankYouCards = []
   for (let i = 0; i < namesArray.length; i++){
+    // for loop contains the initializer, condition, and the iteration
     thankYouCards.push(`Thank you, ${namesArray[i]}, for the wonderful ${event} gift!`)
   }
   return thankYouCards
