@@ -14,6 +14,7 @@ function countdown(countDown){
     console.log(countDown);
     countDown -= 1;
   }
+  console.log(countDown);
 }
 countDown(20);
 
